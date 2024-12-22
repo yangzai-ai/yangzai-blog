@@ -1,0 +1,80 @@
+baseURL = 'https://yangzai-blog.github.io/'
+languageCode = 'zh-cn'
+title = '羊仔AI探索'
+theme = 'hugo-theme-stack'
+
+# 网站参数
+[params]
+  mainSections = ['post']
+  rssFullContent = true
+  favicon = '/favicon.ico'
+  
+  # 文章配置
+  [params.article]
+    [params.article.image]
+      enabled = true
+      height = 420
+      loading = "lazy"
+  
+  # 搜索配置
+  [params.widgets]
+    enabled = ["search"]
+
+  [params.widgets.search]
+    limit = 20
+    
+    [params.widgets.search.params]
+      type = "fuse"
+      [params.widgets.search.params.fuse]
+        isCaseSensitive = false
+        minMatchCharLength = 2
+        findAllMatches = true
+        location = 0
+        distance = 100
+        threshold = 0.2
+        keys = ["title", "permalink", "summary", "content"]
+
+[params.sidebar]
+  emoji = '🐑'
+  subtitle = 'AI探索之旅'
+
+[params.sidebar.avatar]
+  enabled = true
+  local = true
+  src = "img/avatar.jpg"
+
+# 菜单配置
+[[menu.main]]
+  name = '首页'
+  url = '/'
+  weight = 1
+[[menu.main]]
+  name = '文章'
+  url = '/post'
+  weight = 2
+[[menu.main]]
+  name = '分类'
+  url = '/categories'
+  weight = 3
+[[menu.main]]
+  name = '标签'
+  url = '/tags'
+  weight = 4
+[[menu.main]]
+  name = '关于'
+  url = '/about'
+  weight = 5
+[[menu.main]]
+  name = '搜索'
+  url = '/search'
+  weight = 6
+
+# 页脚配置
+[params.footer]
+  since = 2024
+  customText = '羊仔AI探索'
+
+# 输出配置
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
