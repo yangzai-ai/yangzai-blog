@@ -2,7 +2,7 @@
 title: "欢迎来到羊仔AI探索"
 description: "这是我的第一篇博客文章"
 date: 2024-01-01
-image: images/cover.png
+image: images/cover.jpg
 categories:
     - 博客
 tags:

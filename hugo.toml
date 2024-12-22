@@ -35,8 +35,8 @@ theme = 'hugo-theme-stack'
         keys = ["title", "permalink", "summary", "content"]
 
 [params.sidebar]
-  emoji = '🐑'
-  subtitle = 'AI探索之旅'
+  emoji = '🍥'
+  subtitle = '央企程序员，AI探索者'
 
 [params.sidebar.avatar]
   enabled = true
