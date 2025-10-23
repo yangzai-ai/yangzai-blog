@@ -1,4 +1,4 @@
-baseURL = 'https://yangzai-blog.vercel.app/'
+baseURL = 'https://blog.yangzai.ai/'
 languageCode = 'zh-cn'
 title = '羊仔AI探索'
 theme = 'hugo-theme-stack'
