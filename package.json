@@ -1,0 +1,14 @@
+{
+  "name": "yangzai-blog",
+  "version": "1.0.0",
+  "description": "羊仔AI探索博客",
+  "scripts": {
+    "build": "hugo --minify",
+    "dev": "hugo server -D",
+    "clean": "rm -rf public resources"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

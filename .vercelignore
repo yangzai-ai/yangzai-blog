@@ -1,0 +1,20 @@
+# Hugo build artifacts
+public/
+resources/
+.hugo_build.lock
+
+# Development files
+hugo.exe
+hugo.darwin
+hugo.linux
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
